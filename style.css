@@ -1,5 +1,75 @@
+body {
+	background: url(/img/bg.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+div {display: block;}
+
+#leftcol {
+	float: left;
+}
+
+header {
+	width: 107px;
+	height: 107px;
+	margin: 10px 0 0 10px;
+	background: url(/img/logo.png);
+}
+
+#container {
+	margin-left: 127px;
+}
+
 .item {
-  width: 220px;
   margin: 10px;
   float: left;
+  background: #fff;
+  padding: 10px;
+  -moz-border-radius: 0 20px 0 20px;
+  -webkit-border-radius: 0 20px 0 20px;
+  -o-border-radius: 0 20px 0 20px;
+  border-radius: 0 20px 0 20px;
+  display: block;
+  position: absolute;
+}
+
+.item img {
+	display: block;
+	width: 100%;
+}
+
+.col2 {width: 300px;}
+.col3 {width: 470px;}
+.col4 {width: 640px;}
+
+.col2 img {max-width:300px;}
+.col3 img {max-width:470px;}
+.col4 img {max-width:640px;}
+
+
+/**** Transitions ****/
+
+.masonry,
+.masonry .masonry-brick {
+  -webkit-transition-duration: 0.7s;
+     -moz-transition-duration: 0.7s;
+       -o-transition-duration: 0.7s;
+          transition-duration: 0.7s;
+}
+
+.masonry {
+  -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+       -o-transition-property: height, width;
+          transition-property: height, width;
+}
+
+.masonry .masonry-brick {
+  -webkit-transition-property: left, right, top;
+     -moz-transition-property: left, right, top;
+       -o-transition-property: left, right, top;
+          transition-property: left, right, top;
 }
