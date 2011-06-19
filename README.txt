@@ -1,3 +1,12 @@
+#####################################
+
+Use this as a guide to install Textpattern.  You will have to delete config.php in /textpattern before installing.
+
+I am currently messing with the layout on a static HTML page (main.html) to get the layout right before I try to mechanize it.
+
+#####################################
+
+
 Textpattern CMS 4.4.1
 
 Released under the GNU General Public License. See textpattern/license.txt
