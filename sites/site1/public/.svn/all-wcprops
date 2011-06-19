@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/3574/releases/4.4.1/source/sites/site1/public
+END
+setup
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/3574/releases/4.4.1/source/sites/site1/public/setup
+END
+theme
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/3574/releases/4.4.1/source/sites/site1/public/theme
+END
+admin
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/3574/releases/4.4.1/source/sites/site1/public/admin
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/3574/releases/4.4.1/source/sites/site1/public/index.php
+END
+css.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/3574/releases/4.4.1/source/sites/site1/public/css.php
+END

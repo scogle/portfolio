@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/3574/releases/4.4.1/source/textpattern/lib
+END
+i18n-ascii.txt
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/3574/releases/4.4.1/source/textpattern/lib/i18n-ascii.txt
+END
+txplib_wrapper.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/3574/releases/4.4.1/source/textpattern/lib/txplib_wrapper.php
+END
+taglib.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/3574/releases/4.4.1/source/textpattern/lib/taglib.php
+END
+txplib_update.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/3574/releases/4.4.1/source/textpattern/lib/txplib_update.php
+END
+classTextile.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/3574/releases/4.4.1/source/textpattern/lib/classTextile.php
+END
+PasswordHash.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/3574/releases/4.4.1/source/textpattern/lib/PasswordHash.php
+END
+txplib_db.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/3574/releases/4.4.1/source/textpattern/lib/txplib_db.php
+END
+txplib_forms.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/3574/releases/4.4.1/source/textpattern/lib/txplib_forms.php
+END
+txplib_admin.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/3574/releases/4.4.1/source/textpattern/lib/txplib_admin.php
+END
+constants.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/3574/releases/4.4.1/source/textpattern/lib/constants.php
+END
+txplib_misc.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/3574/releases/4.4.1/source/textpattern/lib/txplib_misc.php
+END
+admin_config.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/3574/releases/4.4.1/source/textpattern/lib/admin_config.php
+END
+class.thumb.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/3574/releases/4.4.1/source/textpattern/lib/class.thumb.php
+END
+txplib_head.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/3574/releases/4.4.1/source/textpattern/lib/txplib_head.php
+END
+txplib_theme.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/3574/releases/4.4.1/source/textpattern/lib/txplib_theme.php
+END
+txplib_html.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/3574/releases/4.4.1/source/textpattern/lib/txplib_html.php
+END
+IXRClass.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/3574/releases/4.4.1/source/textpattern/lib/IXRClass.php
+END

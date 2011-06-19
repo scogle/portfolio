@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/3576/releases/4.4.1/source/textpattern
+END
+license.txt
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/3574/releases/4.4.1/source/textpattern/license.txt
+END
+checksums.txt
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/3576/releases/4.4.1/source/textpattern/checksums.txt
+END
+textpattern.css
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/3574/releases/4.4.1/source/textpattern/textpattern.css
+END
+jquery.js
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/3574/releases/4.4.1/source/textpattern/jquery.js
+END
+lgpl-2.1.txt
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/3574/releases/4.4.1/source/textpattern/lgpl-2.1.txt
+END
+publish.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/3574/releases/4.4.1/source/textpattern/publish.php
+END
+config-dist.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/3574/releases/4.4.1/source/textpattern/config-dist.php
+END
+textpattern.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/3574/releases/4.4.1/source/textpattern/textpattern.js
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/3575/releases/4.4.1/source/textpattern/index.php
+END
+css.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/3574/releases/4.4.1/source/textpattern/css.php
+END
