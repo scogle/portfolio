@@ -24,7 +24,7 @@ header {
 }
 
 .item {
-  margin: 10px;
+  margin: 5px;
   float: left;
   background: #fff;
   padding: 10px;
@@ -41,14 +41,33 @@ header {
 	width: 100%;
 }
 
-.col2 {width: 300px;}
-.col3 {width: 470px;}
-.col4 {width: 640px;}
+.col3 {width: 270px;}
+.col4 {width: 370px;}
+.col5 {width: 470px;}
+.col6 {width: 570px;}
 
-.col2 img {max-width:300px;}
-.col3 img {max-width:470px;}
-.col4 img {max-width:640px;}
+.col3 img {max-width:270px;}
+.col4 img {max-width:370px;}
+.col5 img {max-width:470px;}
+.col6 img {max-width:570px;}
 
+.description {
+	background: #000;
+	padding: 20px 20px 20px 20px;
+	margin: -80px 0 0 -30px;
+	color: #fff;
+	z-index: 2000;
+	position: absolute;
+	font-family: Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
+	
+	-moz-border-radius: 10px 0 10px 0;
+  	-webkit-border-radius: 10px 0 10px 0;
+  	-o-border-radius: 10px 0 10px 0;
+  	border-radius: 10px 0 10px 0;
+}
 
 /**** Transitions ****/
 

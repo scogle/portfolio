@@ -3,7 +3,8 @@
 	<head>
 		<title>Nicholas Hower - 3D Artist, Photographer</title>
 		
-		<link rel=stylesheet href="style.css" TYPE="text/css" MEDIA=screen>
+		<!-- <link rel=stylesheet href="reset.css" type="text/css" media=screen> -->
+		<link rel=stylesheet href="style.css" type="text/css" media=screen>
 		
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
 		<script type="text/javascript" src="../js/masonry.js"></script>
@@ -14,47 +15,55 @@
 					$container.imagesLoaded(function(){
 					  $container.masonry({
 					    itemSelector : '.item',
-					    columnWidth: 170,
+					    columnWidth: 100,
 					    isAnimated: true
 					  });
 					});
+					
+				$('header').click(
+					function(){
+						$('#wrapper').animate({top:'+=100px'});
+				});
 			});
 		</script>
 	</head>
 	<body>
-		<div id="leftcol">
-			<header></header>
-		</div>
-		<div id="container">
-			<div class="item col4">
-				<img src="/img/car1.jpg" />
+		<div id="wrapper">
+			<div id="leftcol">
+				<a href="#"><header></header></a>
 			</div>
-			<div class="col3 item">
-				<img src="/img/car2.jpg" />
-			</div>
-			<div class="col3 item">
-				<img src="/img/car3.jpg" />
-			</div>
-			<div class="col2 item">
-				<img src="/img/car4.jpg" />
-			</div>
-			<div class="item col2">
-				<img src="/img/planet1.jpg" />
-			</div>
-			<div class="col2 item">
-				<img src="/img/planet2.jpg" />
-			</div>
-			<div class="col2 item">
-				<img src="/img/planet3.jpg" />
-			</div>
-			<div class="col2 item">
-				<img src="/img/planet4.jpg" />
-			</div>
-			<div class="col3 item">
-				<img src="/img/pool.jpg" />
-			</div>
-			<div class="item col4">
-				<img src="/img/twist.jpg" />
+			<div id="container">
+				<div class="item col6">
+					<img src="/img/car1.jpg" />
+					<div class="description">Hello, world!</div>
+				</div>
+				<div class="col3 item">
+					<img src="/img/car2.jpg" />
+				</div>
+				<div class="col3 item">
+					<img src="/img/car3.jpg" />
+				</div>
+				<div class="col3 item">
+					<img src="/img/car4.jpg" />
+				</div>
+				<div class="item col3">
+					<img src="/img/planet1.jpg" />
+				</div>
+				<div class="col3 item">
+					<img src="/img/planet2.jpg" />
+				</div>
+				<div class="col3 item">
+					<img src="/img/planet3.jpg" />
+				</div>
+				<div class="col3 item">
+					<img src="/img/planet4.jpg" />
+				</div>
+				<div class="col3 item">
+					<img src="/img/pool.jpg" />
+				</div>
+				<div class="item col6">
+					<img src="/img/twist.jpg" />
+				</div>
 			</div>
 		</div>
 	</body>
