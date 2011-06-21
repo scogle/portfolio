@@ -13,27 +13,38 @@ div {display: block;}
 }
 
 header {
-	width: 107px;
-	height: 107px;
-	margin: 10px 0 0 10px;
+	width: 116px;
+	height: 116px;
+	margin: 5px 0 0 20px;
 	background: url(/img/logo.png);
+	position: fixed;
 }
 
 #container {
-	margin-left: 127px;
+	margin-left: 151px;
+	margin-top: 15px;
 }
 
 .item {
+  font-family: 'Oswald', sans-serif;
+  
   margin: 5px;
   float: left;
-  background: #fff;
-  padding: 10px;
-  -moz-border-radius: 0 20px 0 20px;
-  -webkit-border-radius: 0 20px 0 20px;
-  -o-border-radius: 0 20px 0 20px;
-  border-radius: 0 20px 0 20px;
+  //background: #fff;
+  padding-top: 10px;
+/*
+  -moz-border-radius: 0 50px 0 50px;
+  -webkit-border-radius: 0 50px 0 50px;
+  -o-border-radius: 0 50px 0 50px;
+  border-radius: 0 50px 0 50px;
+*/
   display: block;
   position: absolute;
+  
+  -webkit-box-shadow: 0 0 5px #444;
+  -moz-box-shadow: 0 0 5px #444;
+  -o-box-shadow: 0 0 5px #444;
+  box-shadow: 0 0 5px #444;
 }
 
 .item img {
@@ -41,32 +52,50 @@ header {
 	width: 100%;
 }
 
-.col3 {width: 270px;}
-.col4 {width: 370px;}
-.col5 {width: 470px;}
-.col6 {width: 570px;}
+.item p {
+	display: block;
+	max-width: 100%;
+	padding:10px 10px 10px 10px;
+	font-size: 30px;
+	line-height: 160%;
+	color: #000;
+	
+	-webkit-text-shadow: -1px -1px 0 #fff;
+  	-moz-text-shadow: -1px -1px 0 #fff;
+  	-o-text-shadow: -1px -1px 0 #fff;
+  	text-shadow: -1px -1px 0 #fff;
+}
 
-.col3 img {max-width:270px;}
-.col4 img {max-width:370px;}
-.col5 img {max-width:470px;}
-.col6 img {max-width:570px;}
+.col3 {width: 290px;background: #eee url(/img/small_triangle_left.png) no-repeat;background-position-y: top;}
+.col4 {width: 390px;}
+.col5 {width: 490px;}
+.col6 {width: 590px;background: #eee url(/img/green_split.png) no-repeat;background-position-x:center;}
+
+.col3 img {max-width:290px;}
+.col4 img {max-width:390px;}
+.col5 img {max-width:490px;}
+.col6 img {max-width:590px;}
 
 .description {
 	background: #000;
 	padding: 20px 20px 20px 20px;
-	margin: -80px 0 0 -30px;
-	color: #fff;
+	margin: -80px 0 0 -20px;
+	color: #01DF74;
 	z-index: 2000;
 	position: absolute;
-	font-family: Helvetica, Arial, sans-serif;
-	text-transform: uppercase;
-	font-weight: bold;
+	//font-weight: bold;
 	font-size: 18px;
+	text-transform: uppercase;
 	
 	-moz-border-radius: 10px 0 10px 0;
   	-webkit-border-radius: 10px 0 10px 0;
   	-o-border-radius: 10px 0 10px 0;
   	border-radius: 10px 0 10px 0;
+  	
+  	-webkit-box-shadow: 0 0 20px #444;
+	-moz-box-shadow: 0 0 20px #444;
+	-o-box-shadow: 0 0 20px #444;
+	box-shadow: 0 0 20px #444;
 }
 
 /**** Transitions ****/

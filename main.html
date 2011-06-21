@@ -3,8 +3,11 @@
 	<head>
 		<title>Nicholas Hower - 3D Artist, Photographer</title>
 		
-		<!-- <link rel=stylesheet href="reset.css" type="text/css" media=screen> -->
+		<link rel=stylesheet href="reset.css" type="text/css" media=screen>
 		<link rel=stylesheet href="style.css" type="text/css" media=screen>
+		
+		<!-- 	Fonts	 -->
+		<link  href="http://fonts.googleapis.com/css?family=Oswald:regular&v1" rel="stylesheet" type="text/css" >		
 		
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
 		<script type="text/javascript" src="../js/masonry.js"></script>
@@ -15,8 +18,10 @@
 					$container.imagesLoaded(function(){
 					  $container.masonry({
 					    itemSelector : '.item',
-					    columnWidth: 100,
+					    columnWidth: 100/*
+,
 					    isAnimated: true
+*/
 					  });
 					});
 					
@@ -35,7 +40,10 @@
 			<div id="container">
 				<div class="item col6">
 					<img src="/img/car1.jpg" />
-					<div class="description">Hello, world!</div>
+					<div class="description">a quixotic quest for kwality hashish</div>
+				</div>
+				<div class="col6 item">
+					<p>Nick Hower is a 3d artist and photographer.</p>
 				</div>
 				<div class="col3 item">
 					<img src="/img/car2.jpg" />
@@ -61,7 +69,7 @@
 				<div class="col3 item">
 					<img src="/img/pool.jpg" />
 				</div>
-				<div class="item col6">
+				<div class="item col3">
 					<img src="/img/twist.jpg" />
 				</div>
 			</div>
