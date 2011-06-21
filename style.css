@@ -1,9 +1,13 @@
 body {
-	background: url(/img/bg.jpg) no-repeat center center fixed;
+	background: url(http://subtlepatterns.com/wp-content/uploads/2011/04/45degreee_fabric_preview.gif) repeat; /* no-repeat center center fixed */
+	//background: url(/img/bg.jpg) no-repeat center center fixed;
+	
+/*
 	-webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+*/
 }
 
 div {display: block;}
@@ -18,11 +22,13 @@ header {
 	margin: 5px 0 0 20px;
 	background: url(/img/logo.png);
 	position: fixed;
+	z-index: 2000;
 }
 
 #container {
 	margin-left: 151px;
 	margin-top: 15px;
+	max-width: 1920px;
 }
 
 .item {
@@ -60,10 +66,10 @@ header {
 	line-height: 160%;
 	color: #000;
 	
-	-webkit-text-shadow: -1px -1px 0 #fff;
-  	-moz-text-shadow: -1px -1px 0 #fff;
-  	-o-text-shadow: -1px -1px 0 #fff;
-  	text-shadow: -1px -1px 0 #fff;
+	-webkit-text-shadow: 1px 1px 0 #fff;
+  	-moz-text-shadow: 1px 1px 0 #fff;
+  	-o-text-shadow: 1px 1px 0 #fff;
+  	text-shadow: 1px 1px 0 #fff;
 }
 
 .col3 {width: 290px;background: #eee url(/img/small_triangle_left.png) no-repeat;background-position-y: top;}
@@ -77,11 +83,10 @@ header {
 .col6 img {max-width:590px;}
 
 .description {
-	background: #000;
+	background: url(/img/black-Linen.png);
 	padding: 20px 20px 20px 20px;
 	margin: -80px 0 0 -20px;
 	color: #01DF74;
-	z-index: 2000;
 	position: absolute;
 	//font-weight: bold;
 	font-size: 18px;
